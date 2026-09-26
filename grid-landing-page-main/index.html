@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Grid landing page</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Nav -->
+    <header class="nav">
+      <a href="#" class="nav__logo">
+        <span class="nav__dot" aria-hidden="true"></span>
+        Bridge Collective
+      </a>
+
+      <button type="button" class="nav__toggle" id="menuToggle" aria-expanded="false" aria-controls="menuPanel">
+        <img src="./assets/images/icon-menu.svg" alt="" class="nav__toggle-icon nav__toggle-icon--open">
+        <img src="./assets/images/icon-close.svg" alt="" class="nav__toggle-icon nav__toggle-icon--close">
+        <span class="visually-hidden">Menu</span>
+      </button>
+    </header>
+
+    <main class="hero">
+
+      <div class="hero__intro">
+        <h1 class="hero__title">A classroom for every child.</h1>
+        <p class="hero__text">We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a graduate tomorrow.</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid">
+
+        <div class="stat-card">
+          <img src="./assets/images/icon-sparkle.svg" alt="" class="stat-card__icon">
+          <p class="stat-card__number">2.4M</p>
+          <h2 class="stat-card__label">Students reached</h2>
+          <p class="stat-card__desc">Across 31 countries since 2011.</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="./assets/images/icon-plus.svg" alt="" class="stat-card__icon">
+          <p class="stat-card__number">1,284</p>
+          <h2 class="stat-card__label">Schools partnered</h2>
+          <p class="stat-card__desc">In 14 countries, from Kenya to Guatemala.</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="./assets/images/icon-arrow-right.svg" alt="" class="stat-card__icon">
+          <p class="stat-card__number">38K</p>
+          <h2 class="stat-card__label">Teachers trained</h2>
+          <p class="stat-card__desc">Equipped with modern tools and methodology.</p>
+        </div>
+
+        <div class="stat-card">
+          <img src="./assets/images/icon-trending-up.svg" alt="" class="stat-card__icon">
+          <p class="stat-card__number">3.1&times;</p>
+          <h2 class="stat-card__label">Graduation lift</h2>
+          <p class="stat-card__desc">Partner schools outperform national averages 3x.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Bridge Collective</p>
+      <p>Registered charity 12345678</p>
+    </footer>
+
+  </div>
+
+  <!-- Menu panel — hidden until the hamburger is activated -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <nav class="menu-panel" id="menuPanel" aria-label="Main navigation">
+    <ul class="menu-panel__list">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Our Work</a></li>
+      <li><a href="#">Partners</a></li>
+      <li><a href="#">Annual Report</a></li>
+      <li><a href="#">Donate</a></li>
+    </ul>
+  </nav>
+
+  <script src="./script.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
