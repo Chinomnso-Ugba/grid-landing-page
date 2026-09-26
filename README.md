@@ -30,9 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Chinomnso-Ugba/grid-landing-page.git)
-- Live Site URL: (https://your-live-site-url.com)
-
+- Solution URL: https://github.com/Chinomnso-Ugba/grid-landing-page.git
+- Live Site URL: https://grid-landing-page-nine.vercel.app/
 ## My process
 
 ### Built with
@@ -73,5 +72,5 @@ The trickiest part of this challenge was the navigation menu overlay. On mobile 
 
 ## Author
 
-- GitHub - [@Chinomnso-Ugba](https://github.com/Chinomnso-Ugba)
-- Frontend Mentor - [Add your Frontend Mentor profile link here](https://www.frontendmentor.io/profile/your-username)
+- GitHub - https://github.com/Chinomnso-Ugba
+- Frontend Mentor - https://www.frontendmentor.io/profile/1Chinomnso
